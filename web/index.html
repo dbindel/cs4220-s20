@@ -1,0 +1,49 @@
+---
+title: Home
+layout: top
+---
+
+{% include cs4220_head.html %}
+
+<div class="row">
+  
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <h2>News</h2>
+    {% assign counter = 0 %}
+    {% for entry in site.data.news reversed %}
+    {%   if counter < 5 %}
+    {%     include news_entry.html %}
+    {%   endif %}
+    {%   assign counter = counter | plus: 1 %}                  
+    {% endfor %}
+    <a class="btn" href="news.html">Older news &raquo;</a>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <h2>Overview</h2>
+    <p>
+      Scientists, engineers, mathematicians, and computer scientists use
+      models to describe everything from the ringing of bells to the
+      evolution of animal populations to the relationships between web
+      pages.  We turn to computers to help us analyze all but the simplest
+      such models; but how can an inherently discrete device such as a
+      computer solve continuous problems quickly and reliably?  This is the
+      fundamental question we address in CS 4220: Numerical Analysis: Linear
+      and Nonlinear Problems.
+    </p>
+    <p>
+      In this semester of the two-part numerical sequence offered jointly
+      with mathematics, we introduce numerical methods for standard problems
+      in linear algebra, then apply them to the solution of nonlinear
+      systems of equations and optimization problems.  The course will
+      involve a mix of theoretical and practical exercises that will
+      illustrate how to use numerical tools wisely (we hope!) when solving
+      scientific problems.
+    </p>
+    <p>
+      See <a href="syllabus.html">the syllabus</a> for more
+      information on course logistics.
+    </p>
+  </div>
+  
+</div>

@@ -1,0 +1,12 @@
+title: David Bindel
+email: bindel@cornell.edu
+description: CS 4220 home page
+baseurl: "/courses/CS4220/2020sp/"
+url: "http://www.cs.cornell.edu/"
+
+encoding: utf-8
+timezone: America/New_York
+
+exclude: ["Rakefile"]
+
+markdown: kramdown

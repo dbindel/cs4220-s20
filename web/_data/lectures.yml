@@ -1,0 +1,202 @@
+# ==================
+# Week 1 (intro)
+#
+-
+  date: 2020-01-22
+  info: Introduction
+-
+  date: 2020-01-24
+  info: Matrix manipulations
+#
+# ==================
+# Week 2 (background) - HW1
+#
+-
+  date: 2020-01-27
+  info: Vector spaces, norms, singular values
+-
+  date: 2020-01-29
+  info: Sensitivity and conditioning
+-
+  date: 2020-01-31
+  info: Floating point
+#
+# ==================
+# Week 3 (linear solves)
+#
+-
+  date: 2020-02-03
+  info: Gaussian elimination and Cholesky
+-
+  date: 2020-02-05
+  info: Pivoting and blocking
+-
+  date: 2017-02-07
+  info: Conditioning, error estimation, and refinement of linear systems
+#
+# ==================
+# Week 4 (structured solves)
+#
+-
+  date: 2020-02-10
+  info: Sparse and banded
+-
+  date: 2020-02-12
+  info: Separable and semi-separable
+-
+  date: 2020-02-14
+  info: Other structured systems
+#
+# ==================
+# Week 5 (least squares)
+#
+-
+  date: 2020-02-17
+  info: Intro to least squares
+-
+  date: 2020-02-19
+  info: Least squares and QR
+-
+  date: 2020-02-21
+  info: Ill-posedness and regularization
+#
+# ==================
+# Week 6 (least squares + eigen background)
+#
+-
+  date: 2020-02-24
+  break: February break
+-
+  date: 2020-02-26
+  info: Nearness problems
+-
+  date: 2020-02-28
+  info: Applications of eigenvalue problems
+#
+# ==================
+# Week 7 (eigenvalue methods)
+#
+-
+  date: 2020-03-02
+  info: Eigenvalue problem background
+-
+  date: 2020-03-04
+  info: From power methods to QR iteration
+-
+  date: 2020-03-06
+  info: Hessenberg, tridiagonal, and bidiagonal
+#
+# ==================
+# Week 8 (nonlinear solvers in 1D)
+#
+-
+  date: 2020-03-09
+  info: Nonlinear equations in 1D
+-
+  date: 2020-03-11
+  info: Nonlinear equations in 1D
+-
+  date: 2020-03-13
+  info: Optimization in 1D
+#
+# ==================
+# Week 9 (linear iterative solvers)
+# Weds is drop deadline
+#
+-
+  date: 2020-03-16
+  info: Contractions and fixed points
+-
+  date: 2020-03-18
+  info: Classical stationary iterations
+-
+  date: 2020-03-20
+  info: Krylov subspaces and CG
+#
+# ==================
+# Week 10 (nonlinear eq and optimization)
+#
+-
+  date: 2020-03-23
+  info: Preconditioning
+-
+  date: 2020-03-25
+  info: Nonlinear equations and optimization
+  travel: Simons
+-
+  date: 2020-03-27
+  info: Newton in many dimensions
+  travel: Simons
+#
+# ==================
+# Break
+#
+-
+  date: 2020-03-30
+  break: Spring break
+-
+  date: 2020-04-01
+  break: Spring break
+-
+  date: 2020-04-03
+  break: Spring break
+#
+# ==================
+# Week 11 (iterations)
+#
+-
+  date: 2020-04-06
+  info: Modified Newton iterations
+  travel: Dean search
+-
+  date: 2020-04-08
+  info: Quasi-Newton and other iterations
+-
+  date: 2020-04-10
+  info: Gradient methods
+#
+# ==================
+# Week 12 (globalization)
+#
+-
+  date: 2020-04-13
+  info: Line search and globalization
+-
+  date: 2020-04-15
+  info: Trust regions
+-
+  date: 2020-04-17
+  info: Homotopy and continuation
+#
+# ==================
+# Week 13 (constraints)
+#
+-
+  date: 2020-04-20
+  info: Constraints and multipliers
+-
+  date: 2020-04-22
+  info: Methods for equality constraints
+-
+  date: 2020-04-24
+  info: Methods for inequality constraints
+#
+# ==================
+# Week 14 (other topics)
+#
+-
+  date: 2020-04-27
+  info: Iteratively reweighted least squares
+-
+  date: 2020-04-29
+  info: Variable projection and stochastic methods
+-
+  date: 2020-05-01
+  info: Derivative free methods
+#
+# ==================
+# Week 15 (wrap-up)
+#
+-
+  date: 2020-05-04
+  info: Review
