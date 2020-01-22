@@ -20,6 +20,7 @@
 -
   date: 2020-01-31
   info: Floating point
+  hw: HW 1 due
 #
 # ==================
 # Week 3 (linear solves)
@@ -33,6 +34,7 @@
 -
   date: 2017-02-07
   info: Conditioning, error estimation, and refinement of linear systems
+  hw: HW 2 due
 #
 # ==================
 # Week 4 (structured solves)
@@ -46,6 +48,7 @@
 -
   date: 2020-02-14
   info: Other structured systems
+  hw: HW 3 due
 #
 # ==================
 # Week 5 (least squares)
@@ -59,6 +62,7 @@
 -
   date: 2020-02-21
   info: Ill-posedness and regularization
+  hw: HW 4 due
 #
 # ==================
 # Week 6 (least squares + eigen background)
@@ -85,6 +89,7 @@
 -
   date: 2020-03-06
   info: Hessenberg, tridiagonal, and bidiagonal
+  hw: P1 due
 #
 # ==================
 # Week 8 (nonlinear solvers in 1D)
@@ -98,6 +103,7 @@
 -
   date: 2020-03-13
   info: Optimization in 1D
+  hw: MT due
 #
 # ==================
 # Week 9 (linear iterative solvers)
@@ -127,6 +133,7 @@
   date: 2020-03-27
   info: Newton in many dimensions
   travel: Simons
+  hw: P2 due
 #
 # ==================
 # Break
@@ -154,6 +161,7 @@
 -
   date: 2020-04-10
   info: Gradient methods
+  hw: HW 5 due
 #
 # ==================
 # Week 12 (globalization)
@@ -167,6 +175,7 @@
 -
   date: 2020-04-17
   info: Homotopy and continuation
+  hw: HW 6 due
 #
 # ==================
 # Week 13 (constraints)
@@ -193,6 +202,7 @@
 -
   date: 2020-05-01
   info: Derivative free methods
+  hw: P3 due
 #
 # ==================
 # Week 15 (wrap-up)

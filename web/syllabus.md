@@ -63,7 +63,12 @@ Some linear algebra references:
 - Strang, [_Linear Algebra and its Applications_][strang]
 - Strang's excellent online course is [here][strangocw]
 
-Some MATLAB references:
+The [Julia language home page](http://julialang.org/) has many pointers
+to using the Julia programming language; see in particular the
+[learning](http://julialang.org/learning/) link at the top of the
+home page.
+
+Some MATLAB references (if you prefer MATLAB/Octave to Julia):
 
 - Moler, [_Numerical Computing with MATLAB_][ncm]
 - Van Loan and Fan,
@@ -73,10 +78,6 @@ Some MATLAB references:
 - Hanselman and Littlefield, [_Mastering MATLAB7_][hanselman]
 - Or pick a favorite from the [many available][mathworks-books]
 
-The [Julia language home page](http://julialang.org/) has many pointers
-to using the Julia programming language; see in particular the
-[learning](http://julialang.org/learning/) link at the top of the
-home page.
 
 [ag]: http://bookstore.siam.org/cs07/
 [age]: http://epubs.siam.org/doi/book/10.1137/9780898719987
@@ -105,14 +106,13 @@ the class material.  These problems are not graded, but you should
 try them (and try to understand them) as a way to better learn the
 material -- and as a way to study for the exams.
 
-### Participation and feedback
+### Class work
 
-Your participation makes the class more interesting and useful
-for all of us.  There are several ways to participate:
-
-- Answering questions in class
-- Actively engaging and answering questions on Piazza
-- Helping correct and clarify class notes and assignments
+During each lecture, I will ask 1-2 questions of the class.  You
+should bring along some paper to jot the answers to these questions,
+as well as notes on anything that you found particularly confusing
+during the lecture.  Each submission counts for a third of a point
+on the final grade (for a total of 10% of the grade, equal to one project).
 
 It is also critical for us to have your feedback about how the class
 is going, both to improve the class for the current semester and to
@@ -121,10 +121,7 @@ non-anonymous comments around the midterm, and at the end of the
 semester will check with the college to see who has completed course
 evaluation surveys (though we obviously cannot check to see whether
 your feedback is useful!).  Participating in these feedback activities
-counts toward your grade.
-
-Together, participation and feedback counts for the equivalent of one
-homework.
+counts toward your grade via points oon the midterm and final.
 
 ### Homework and projects
 
@@ -150,21 +147,22 @@ yourself for problems where we do not grade in detail.
 
 There will be one midterm and one final exam:
 
- - Midterm: March 6-10
- - Final Exam: TBA
+ - Midterm: March 6-13
+ - Final Exam: May 4-11
 
-Both exams are take home.
+Both exams are take home.  A couple points on the final will go
+toward course evaluation.
 
 ## Grading
 
 Your final grade in CS 4220 will be computed from grades on the
 assignments and exams using the following weights:
 
- - Participation: 5%
+ - Class work: 10%
  - Homework: 6% times 5 homeworks (best of 6)
  - Projects: 10% times 3 projects
  - Midterm: 15%
- - Final: 20%
+ - Final: 15%
 
 ## Course policies
 
