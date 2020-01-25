@@ -1,19 +1,22 @@
-PDFS= 
+TEXINPUTS:=.
 
-.PHONY: all clean distclean copy
-all: $(PDFS)
+HW=pdf/hw1.pdf 
+
+.PHONY: all copy
+all: $(HW)
+
+pdf/%.pdf: tex/%.tex
+	xelatex -output-dir pdf $<
+	xelatex -output-dir pdf $<
 
 clean:
-	rm -f hw*.aux hw*.log hw*.out
-	rm -f proj*.aux proj*.log proj*.out
+	rm -f pdf/*.aux pdf/*.log pdf/*.out
+	rm -f pdf/*.nav pdf/*.snm pdf/*.toc
+	rm -f pdf/*.vrb
 
 distclean: clean
-	rm -f hw*.pdf proj*.pdf
+	rm -f pdf/*.pdf
 
-copy: $(PDFS) 
+copy: $(HW)
 	mkdir -p ../web/hw
-	#cp $(PDFS) ../web/hw
-
-%.pdf: %.tex common.tex
-	pdflatex $<
-	pdflatex $<
+	cp $(HW) ../web/hw

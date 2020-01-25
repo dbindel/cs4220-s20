@@ -39,7 +39,7 @@ layout: main
       {% endif %}
       <td>
         {% if lec.hw %}<ul>
-          {% for item in lec.hw %}<li>{{ item }}</li>{% endfor %}
+          {% for item in lec.hw %}<li>{% if item.file %}<a href="hw/{{ item.file }}">{{ item.info }}</a>{% else %}{{ item.info }}{% endif %}</li>{% endfor %}
         </ul>{% endif %}
       </td>
     </tr>

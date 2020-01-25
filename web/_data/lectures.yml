@@ -9,6 +9,9 @@
   date: 2020-01-24
   info: Matrix manipulations
   notes: 2020-01-24.pdf
+  hw:
+    - info: HW 1 (due 1/31)
+      file: hw1.pdf
 #
 # ==================
 # Week 2 (background) - HW1
@@ -22,7 +25,8 @@
 -
   date: 2020-01-31
   info: Floating point
-  hw: HW 1 due
+  hw: 
+    - info: HW 2 (due 2/7)
 #
 # ==================
 # Week 3 (linear solves)
@@ -36,7 +40,8 @@
 -
   date: 2017-02-07
   info: Conditioning, error estimation, and refinement of linear systems
-  hw: HW 2 due
+  hw: 
+    - info: HW 3 (due 2/14)
 #
 # ==================
 # Week 4 (structured solves)
@@ -50,7 +55,8 @@
 -
   date: 2020-02-14
   info: Other structured systems
-  hw: HW 3 due
+  hw: 
+    - info: HW i4 due (2/21)
 #
 # ==================
 # Week 5 (least squares)
@@ -64,7 +70,8 @@
 -
   date: 2020-02-21
   info: Ill-posedness and regularization
-  hw: HW 4 due
+  hw:
+    - info: P1 (due 3/6)
 #
 # ==================
 # Week 6 (least squares + eigen background)
@@ -91,7 +98,8 @@
 -
   date: 2020-03-06
   info: Hessenberg, tridiagonal, and bidiagonal
-  hw: P1 due
+  hw: 
+    - info: Midterm (due 3/13)
 #
 # ==================
 # Week 8 (nonlinear solvers in 1D)
@@ -105,7 +113,8 @@
 -
   date: 2020-03-13
   info: Optimization in 1D
-  hw: MT due
+  hw: 
+    - info: P2 (due 3/27)
 #
 # ==================
 # Week 9 (linear iterative solvers)
@@ -135,7 +144,8 @@
   date: 2020-03-27
   info: Newton in many dimensions
   travel: Simons
-  hw: P2 due
+  hw: 
+    - info: HW 5 (due 4/10)
 #
 # ==================
 # Break
@@ -163,7 +173,7 @@
 -
   date: 2020-04-10
   info: Gradient methods
-  hw: HW 5 due
+  hw: HW 6 due (4/17)
 #
 # ==================
 # Week 12 (globalization)
@@ -177,7 +187,8 @@
 -
   date: 2020-04-17
   info: Homotopy and continuation
-  hw: HW 6 due
+  hw: 
+    - info: P3 (due 5/1)
 #
 # ==================
 # Week 13 (constraints)
@@ -204,7 +215,6 @@
 -
   date: 2020-05-01
   info: Derivative free methods
-  hw: P3 due
 #
 # ==================
 # Week 15 (wrap-up)
@@ -212,3 +222,5 @@
 -
   date: 2020-05-04
   info: Review
+  hw:
+    - info: Final (due 5/11)

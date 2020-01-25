@@ -1,0 +1,48 @@
+\documentclass[12pt, leqno]{article} %% use to set typesize
+\include{common}
+
+\begin{document}
+
+\hdr{2020-01-24}{2020-01-31}
+
+You may (and should) talk about problems with each other and with me,
+providing attribution for any good ideas you might get.  Your final
+write-up should be your own.
+
+\paragraph*{1: Placing parens}
+Suppose $A, B \in \bbR^{n \times n}$ are ssquare matrices, $D =
+\operatorname{diag}(d) \in \bbR^{n \times n}$ is a diagonal matrix,
+and $u, v \in \bbR^n$ are vectors.  Write short fragments of Julia,
+MATLAB, or Python to evaluate each of the following expressions in
+the inidicated complexity
+\begin{itemize}
+\item $\operatorname{\tr(DAD)}$ in $O(n)$
+\item $v^T (I+uu^T)v$ in $O(n)$
+\item $u^T A^2 v$ in $O(n^2)$
+\end{itemize}
+
+\paragraph*{2: Making matrices}
+In terms of the power basis, write
+\begin{itemize}
+\item $A \in \bbR^{5 \times 4}$ corresponding to multiplication of a
+  polynomial of degree at most $3$ by $x$.
+\item $B \in \bbR^{5 \times 5}$ corresponding to differentiation of quartics.
+\item A symmetric $M \in \bbR^{3 \times 3}$ representing the quadratic
+  form $p(x) \mapsto \int_0^1 p(x)^2 \, dx$ for polynomials $p(x)$ of
+  maximum degree 2; that is,
+  \[
+    \int_0^1 p(x)^2 \, dx = c^T M c
+  \]
+  where $c \in \bbR^3$ is the vector of coefficients for the
+  polynomial.
+\end{itemize}
+
+\paragraph*{3: Low rank limbo}
+SSuppose $u, v \in \bbR^n$ and let $L = uv^*$.  Show that
+\begin{itemize}
+\item $\|L\|_1 = \|u\|_1 \|v\|_\infty$
+\item $\|L\|_\infty = \|u\|_\infty \|v\|_1$
+\item $\|L\|_F = \|u\|_2 \|v\|2$
+\end{itemize}
+
+\end{document}
