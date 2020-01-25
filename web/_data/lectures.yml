@@ -173,7 +173,8 @@
 -
   date: 2020-04-10
   info: Gradient methods
-  hw: HW 6 due (4/17)
+  hw: 
+    - info: HW 6 due (4/17)
 #
 # ==================
 # Week 12 (globalization)
