@@ -15,17 +15,12 @@ Prof: [David Bindel](http://www.cs.cornell.edu/~bindel)
 425 Gates Hall  
 Phone: 607-255-5395  
 E-mail: bindel@cornell.edu  
-OH: W 1:30-2:30, Th 10-11 or by appointment.
+OH: W 1:30-2:30, Th 9-10 or by appointment.
 
 TA: [Darian Nwankwo](http://www.cs.cornell.edu/~don/)  
-OH: TBA.
-
 TA: [Xinran Zhu](https://www.cam.cornell.edu/research/grad-students/jessie-xinraan-zhu)  
-OH: TBA.
-
-
 TA: Leo Huang  
-OH: TBA.
+OH: Fri 9-10, Mon 12-1.
 
 ### Catalog description
 
