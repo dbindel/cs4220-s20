@@ -1,7 +1,7 @@
 # cs4220-s20
 
 This is the course material repository for Cornell [CS 4220][cs4220]
-for the Spring 2017 semester.  This repository will contain lecture
+for the Spring 2020 semester.  This repository will contain lecture
 notes, homework assignments, reference codes, utilities, and the
 source for the class web site.  Feel free to use the code, TeX files,
 or other materials here; also, feel free to post pull requests if you
