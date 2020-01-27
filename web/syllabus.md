@@ -23,6 +23,10 @@ OH: TBA.
 TA: [Xinran Zhu](https://www.cam.cornell.edu/research/grad-students/jessie-xinraan-zhu)  
 OH: TBA.
 
+
+TA: Leo Huang  
+OH: TBA.
+
 ### Catalog description
 
 4 credits.  Introduction to the fundamentals of numerical
