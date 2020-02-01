@@ -1,0 +1,62 @@
+\documentclass[12pt, leqno]{article} %% use to set typesize
+\include{common}
+
+\begin{document}
+
+\hdr{2020-01-31}{2020-02-07}
+
+You may (and should) talk about problems with each other and with me,
+providing attribution for any good ideas you might get.  Your final
+write-up should be your own.
+
+% Sensitivity, error analysis, norm manipulations
+% Floating point
+% Gaussian elimination?
+
+\paragraph*{1: Conditioning}
+For a differentiable function $f : \bbR^n \rightarrow \bbR^m$, we
+define the (2-norm) condition number at $x$ to be
+\[
+  \kappa_2(x) = \frac{\|J(x)\|_2 \|x\|_2}{\|f(x)\|_2}
+\]
+where $J(x)$ is the {\em Jacobian} matrix (the matrix of partial
+derivatives).  This generalizes the scalar condition number defined
+in the notes.  Given this definition, what is the condition number of
+$f : \bbR^2 \rightarrow \bbR$ given by $f(x) = x_1 x_2$?
+Under what circumstances is this condition number large?
+
+\paragraph*{2: Box-Cox}
+The Box-Cox family of transformations is sometimes used in statistical
+applications to normalize non-negative data.  The transformation has
+the form
+\[
+  g_\lambda(x) =
+  \begin{cases}
+    \frac{x^\lambda-1}{\lambda}, & \lambda \neq 0 \\
+    \log x, & \lambda = 0
+  \end{cases}
+\]
+The most obvious implementation (in MATLAB) is
+\begin{lstlisting}
+  if lambda == 0
+    g = log(x);
+  else
+    g = (x^lambda-1)/lambda;
+  end
+\end{lstlisting}
+Unfortunately, this is prone to large relative errors when
+$|\lambda \log x| \ll 1$.  Explain why, and suggest an alternative
+with better error in this case.  You may wish to use the function
+{\tt expm1} for your solution (though there are other approaches as well).
+
+\paragraph*{3: Pi, see!}
+The following routine estimates $\pi$ by recursively computing the
+semiperimeter of a sequence of $2^{k+1}$-gons embedded in the unit circle:
+\lstset{language=matlab,frame=lines,columns=flexible}
+\lstinputlisting{code/pibad.m}
+Plot the absolute error $|s_k-\pi|$ against $k$ on a semilog plot.
+Explain why the algorithm behaves as it does, and describe a
+reformulation of the algorithm that does not suffer from this problem.
+
+
+\end{document}
