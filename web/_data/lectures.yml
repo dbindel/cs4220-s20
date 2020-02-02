@@ -37,13 +37,15 @@
 #
 -
   date: 2020-02-03
-  info: Gaussian elimination and Cholesky
+  info: Floating point
 -
   date: 2020-02-05
-  info: Pivoting and blocking
+  info: Gaussian elimination and Cholesky
+  notes: 2020-02-05.pdf
 -
   date: 2017-02-07
-  info: Conditioning, error estimation, and refinement of linear systems
+  info: Pivoting and blocking
+  notes: 2020-02-07.pdf
   hw: 
     - info: HW 3 (due 2/14)
 #
@@ -52,10 +54,10 @@
 #
 -
   date: 2020-02-10
-  info: Sparse and banded
+  info: Conditioning, error estimation, and refinement of linear systems
 -
   date: 2020-02-12
-  info: Separable and semi-separable
+  info: Sparse and banded
 -
   date: 2020-02-14
   info: Other structured systems
