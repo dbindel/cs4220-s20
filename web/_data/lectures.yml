@@ -59,9 +59,11 @@
 -
   date: 2020-02-12
   info: Conditioning, error estimation, and refinement of linear systems
+  notes: 2020-02-12.pdf
 -
   date: 2020-02-14
   info: Sparse, banded, and structured solves
+  notes: 2020-02-14.pdf
   hw: 
     - info: HW 4 due (2/21)
 #
