@@ -12,6 +12,6 @@ put your assignment solutions in public [GitHub][gh] repositories.
 Note that [GitHub][gh] and [BitBucket][bb] both offer private repositories;
 I typically use [BitBucket][bb] for this purpose.
 
-[cs4220]: http://www.cs.cornell.edu/~bindel/class/cs4220-s20
+[cs4220]: https://www.cs.cornell.edu/courses/cs4220/2020sp/
 [gh]: http://github.com/
 [bb]: https://bitbucket.org
