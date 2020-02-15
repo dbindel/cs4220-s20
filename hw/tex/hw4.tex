@@ -1,0 +1,50 @@
+\documentclass[12pt, leqno]{article} %% use to set typesize
+\include{common}
+
+\begin{document}
+
+\hdr{2020-02-14}{2020-02-21}
+
+You may (and should) talk about problems with each other and with me,
+providing attribution for any good ideas you might get.  Your final
+write-up should be your own.
+
+% Cholesky
+
+% Basic least squares
+
+\paragraph*{1: Describing definiteness}
+Suppose $A \in \bbR^{n \times n}$ is symmetric and positive definite.
+Give {\em brief} proofs of each of the following facts
+\begin{itemize}
+\item $A$ is invertible.
+\item $A^{-1}$ is positive definite.
+\item Any principal submatrix is positive definite.
+\item Any Schur complement is positive definite.
+\end{itemize}
+
+\paragraph*{2: Beyond Cholesky}
+Suppose $A \in \bbR^{n \times n}$ is symmetric and positive definite
+and $B \in \bbR^{n \times k}$ has full column rank (with $k < n$).
+Argue for the existence of the factorization
+\[
+  \begin{bmatrix} A & B \\ B^T & 0 \end{bmatrix} =
+  \begin{bmatrix} L_{11} & 0 \\ L_{12} & L_{22} \end{bmatrix}
+  \begin{bmatrix} I & 0 \\ 0 & -I \end{bmatrix}
+  \begin{bmatrix} L_{11} & 0 \\ L_{12} & L_{22} \end{bmatrix}^T
+\]
+and give a short code (using all the standard built-ins) to
+compute this factorization in the language of your choice.
+
+\paragraph*{3: Recover the map}
+Suppose we are given $N$ pairs
+$(x^{(i)}, y^{(i)}) \in \bbR^n \times \bbR^n$.  Write a short
+code (in any language) to solve
+\[
+  \mbox{minimize } \sum_{i=1}^N \|y^{(i)}-Ax^{(i)}\|^2
+  \mbox{ over } A \in \bbR^{n \times n}
+\]
+You may use built-in functions for solving least squares.
+Illustrate your code on a sample set of points.
+
+\end{document}
