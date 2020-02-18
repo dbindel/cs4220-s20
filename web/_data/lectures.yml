@@ -78,9 +78,11 @@
 -
   date: 2020-02-19
   info: Least squares and QR
+  notes: 2020-02-19.pdf
 -
   date: 2020-02-21
   info: Ill-posedness and regularization
+  notes: 2020-02-21.pdf
   hw:
     - info: P1 (due 3/6)
 #
