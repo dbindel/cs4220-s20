@@ -12,7 +12,7 @@ function [obj] = p1setup()
 
   % Load the image
   obj = [];
-  obj.imblur = imread('blurry.png');
+  obj.imblur = imread('../data/blurry.png');
 
   % Generate the Fourier transformed version
   obj.imblurf = double(obj.imblur);
@@ -25,7 +25,7 @@ function [obj] = p1setup()
   %     The default behavior of this script is to load from that file.
   %
   %K = fspecial('motion', 30, 20);
-  K = load('K.mat', '-ascii');
+  K = load('../data/K.mat', '-ascii');
   obj.PSF = K;
 
   % Pad, shift to recenter, and Fourier transform
