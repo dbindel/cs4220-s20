@@ -63,10 +63,10 @@ SPD.
 In terms of basic MATLAB operations, Cholesky factorization looks like
 \begin{lstlisting}
 % Overwrite the lower triangular factor of A with L
-for j = 1:n-1
+for j = 1:n
   A(j,j) = sqrt(A(j,j));
   A(j+1:n,j) = A(j+1:n,j)/A(j,j);
-  A(j+1:n,j+1:n) = A(j+1:n,j+1:n) - A(j+1:n,j)*A(j,j+1:n);
+  A(j+1:n,j+1:n) = A(j+1:n,j+1:n) - A(j+1:n,j)*A(j,j+1:n)';
 end
 \end{lstlisting}
 This is very similar to the standard Gaussian elimination loop.
