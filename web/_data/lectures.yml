@@ -95,10 +95,12 @@
   break: February break
 -
   date: 2020-02-26
-  info: Nearness problems
+  info: Ill-posedness and regularization
+  notes: 2020-02-21.pdf
 -
   date: 2020-02-28
   info: Applications of eigenvalue problems
+  notes: 2020-02-28.pdf
 #
 # ==================
 # Week 7 (eigenvalue methods)
