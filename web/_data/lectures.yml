@@ -107,13 +107,16 @@
 #
 -
   date: 2020-03-02
-  info: Eigenvalue problem background
+  info: Power iteration
+  notes: 2020-03-02.pdf
 -
   date: 2020-03-04
   info: From power methods to QR iteration
+  notes: 2020-03-04.pdf
 -
   date: 2020-03-06
   info: Hessenberg, tridiagonal, and bidiagonal
+  notes: 2020-03-04.pdf
   hw: 
     - info: Midterm (due 3/13)
 #
