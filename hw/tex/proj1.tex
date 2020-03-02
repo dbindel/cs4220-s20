@@ -265,7 +265,7 @@ number generator.
   Using the {\tt p1gcv} function as a building block, write an optimizer
   to minimize the $\tilde{G}$:
 \begin{lstlisting}
-  function [lambda] = p1gcvopt(imblurd, H, lmin, lmax, Z)
+  function [lambda] = p1gcvopt(obj, lmin, lmax, Z)
 \end{lstlisting}
   If the argument {\tt Z} is omitted, form probe vectors with the following
   code fragment
