@@ -270,9 +270,9 @@ number generator.
   If the argument {\tt Z} is omitted, form probe vectors with the following
   code fragment
 \begin{lstlisting}
-  n = size(imblurd,1);
+  [h,w,~] = size(obj.imblur);
   m = 10;
-  Z = sign(rand(n,m)-0.5);
+  Z = sign(rand(h,w,m)-0.5);
 \end{lstlisting}
   You should probably make use of the {\tt p1gcv} code from the previous
   question!
