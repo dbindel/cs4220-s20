@@ -1,0 +1,162 @@
+\documentclass[12pt, leqno]{article} %% use to set typesize
+\include{common}
+
+\begin{document}
+
+\pagestyle{fancy}
+\lhead{Bindel, Fall 2020}
+\rhead{Numerical Analysis}
+\fancyfoot{}
+\begin{center}
+  {\large{\bf Midterm}} \\ (due: 2020-02-13)
+\end{center}
+\lstset{language=Julia,columns=flexible}
+
+You may (and should) consult any resources you wish {\em except} for
+people (outside the course staff).  Provide attribution for any good
+ideas you might get.  Your final write-up should be your own.
+
+
+\paragraph*{True/false}
+For each of the following statements, either give a brief argument
+that it is true or provide an example to show it is false.
+\begin{itemize}
+\item[1 pt]
+  The eigenvalues of a real symmetric positive definite matrix are
+  all positive.
+\item[1 pt]
+  Every square nonsingular matrix $A$ can be decomposed as $A =
+  LU$ where $L$ is unit lower triangular and $U$ is upper triangular.
+\item[1 pt]
+  The eigenvalues of a 2-by-2 matrix are differentiable functions
+  of the matrix entries.
+\item[1 pt]
+  For every square matrix, power iteration eventually converges to
+  a dominant eigenvector.
+\item[1 pt]
+  If $A \in \bbR^{n \times n}$ has condition number $\kappa(A) = 1$,
+  then $A = \alpha Q$ for some real $\alpha \neq 0$
+  and orthogonal matrix $Q \in \bbR^{n \times n}$.
+\item[1 pt]
+  If $A \in \bbR^{m \times n}$ has full column rank, then $A^\dagger A = I$.
+\end{itemize}
+  
+\paragraph*{Speedy and stable}
+Consider each of the following:
+\begin{itemize}
+\item[2 pts]
+  Rewrite the following code for better speed and numerical stability
+  assuming $PA = LU$ is already computed.
+  \begin{lstlisting}
+    dx = -inv(A)*dA*inv(A)*b
+  \end{lstlisting}
+\item[2 pts]
+  For $x > 1$, the equation $x = \cosh(y)$ can be solved as
+  \[
+    y = -\ln\left(x - \sqrt{x^2-1}\right).
+  \]
+  What happens when $x = 10^8$?  How can we fix it?
+\item[2 pts]
+  Explain the output of the following code fragment
+  \begin{lstlisting}
+    x = 2;
+    for k = 1:100, x = sqrt(x); end
+    for k = 1:100, x = x^2;     end
+    disp(x);
+  \end{lstlisting}
+\end{itemize}
+
+
+\paragraph*{Polynomial fitting}
+Consider fitting a polynomial of degree at most $d$
+to $n$ data points, i.e.
+\[
+  \mbox{minimize } \sum_{j=1}^n (p(x_i)-y_i)^2
+\]
+\begin{itemize}
+\item[2 pts]
+  Complete the following code to find $p(x) = \sum_{j=0}^d c_j x^j$
+  that solves the minimization problem by a standard
+  linear least squares formulation:
+  \begin{lstlisting}
+    function [c] = poly_least_squares(x, y)
+  \end{lstlisting}
+  You may write equivalent code in Julia or Python.
+\item[2 pts]
+  Modify the code to solve the problem
+  \[
+    \mbox{minimize } \sum_{j=1}^n (p(x_i)-y_i)^2 +
+    \mu \|c\|^2
+  \]
+  In MATLAB, your routine should have the interface
+  \begin{lstlisting}
+    function [c] = poly_least_squares_tik(x, y, mu)
+  \end{lstlisting}
+  You may write equivalent code in Julia or Python.
+\item[2 pts]
+  Modify the code to solve the problem
+  \[
+    \mbox{minimize } \sum_{j=1}^n (p(x_i)-y_i)^2 +
+    \mu \int_{-1}^1 p'(x)^2 \, dx
+    \]
+  In MATLAB, your routine should have the interface
+  \begin{lstlisting}
+    function [c] = poly_least_squares_smooth(x, y, mu)
+  \end{lstlisting}
+  You may write equivalent code in Julia or Python.
+\end{itemize}
+
+
+\paragraph*{Sensitive pseudoinverse}
+Consider the problem
+\[
+  x(s) = (A+sE)^\dagger b
+\]
+where $A \in \bbR^{m \times n}$ has full column rank.  Suppose
+the economy QR factorization $A = QR$ is given.
+\begin{itemize}
+\item[2 pts]
+  Compute $x(0)$.  Your code should take at most $O(mn)$ time.  In MATLAB,
+  this means filling in the second line in this fragment:
+  \begin{lstlisting}
+    [Q,R] = qr(A,0); % This is O(mn^2)
+    x0 = ???;        % This should be O(mn)
+  \end{lstlisting}
+\item[4 pts]
+  Compute $x'(0)$ (worth two points).
+  Your code should take at most $O(mn)$ time (worth two points).
+  You can sanity check your code by a finite difference test:
+  \begin{lstlisting}
+    h = 1e-6;
+    xp = (A+h*E)\b;
+    xm = (A-h*E)\b;
+    dx_fd = (xp-xm)/2/h;
+    dx = % your computation
+    relerr = norm(dx_fd-x)/norm(dx)
+  \end{lstlisting}
+\end{itemize}
+
+
+\paragraph*{Conditioning}
+\begin{itemize}
+\item[2 pts]
+  Argue that if $A \in \bbR^{n \times n}$ is symmetric and positive definite and
+  $A_{11} \in \bbR^{k \times k}$ is a leading principal submatrix,
+  then $\kappa_2(A_{11}) \leq \kappa(A)$, where $\kappa$ denotes
+  the usual condition number for solving linear systems.
+\item[2 pts]
+  Show by example that the hypothesis that $A$ is positive definite
+  is necessary in the above statement.
+\item[2 pts]
+  Show that if
+  $A \in \bbR^{m \times n} = \begin{bmatrix} A_1 & A_2 \end{bmatrix}$,
+  then $\kappa(A_1) \leq \kappa(A)$, where $\kappa$ here denotes the
+  usual condition number for least squares.
+\end{itemize}
+
+% - Bordered circulant solver
+%   - Transform to equivalent system with diagonal block
+%   - Solve on the arrow matrix
+%   - Implement and check
+
+\end{document}

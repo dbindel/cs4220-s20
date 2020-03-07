@@ -119,6 +119,7 @@
   notes: 2020-03-04.pdf
   hw: 
     - info: Midterm (due 3/13)
+      file: midterm.pdf
 #
 # ==================
 # Week 8 (nonlinear solvers in 1D)
