@@ -79,7 +79,7 @@ to $n$ data points, i.e.
   that solves the minimization problem by a standard
   linear least squares formulation:
   \begin{lstlisting}
-    function [c] = poly_least_squares(x, y)
+    function [c] = poly_least_squares(x, y, d)
   \end{lstlisting}
   You may write equivalent code in Julia or Python.
 \item[2 pts]
@@ -90,7 +90,7 @@ to $n$ data points, i.e.
   \]
   In MATLAB, your routine should have the interface
   \begin{lstlisting}
-    function [c] = poly_least_squares_tik(x, y, mu)
+    function [c] = poly_least_squares_tik(x, y, d, mu)
   \end{lstlisting}
   You may write equivalent code in Julia or Python.
 \item[2 pts]
@@ -101,7 +101,7 @@ to $n$ data points, i.e.
     \]
   In MATLAB, your routine should have the interface
   \begin{lstlisting}
-    function [c] = poly_least_squares_smooth(x, y, mu)
+    function [c] = poly_least_squares_smooth(x, y, d, mu)
   \end{lstlisting}
   You may write equivalent code in Julia or Python.
 \end{itemize}
