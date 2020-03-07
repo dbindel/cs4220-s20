@@ -132,7 +132,7 @@ the economy QR factorization $A = QR$ is given.
     xm = (A-h*E)\b;
     dx_fd = (xp-xm)/2/h;
     dx = % your computation
-    relerr = norm(dx_fd-x)/norm(dx)
+    relerr = norm(dx_fd-dx)/norm(dx)
   \end{lstlisting}
 \end{itemize}
 
@@ -143,7 +143,15 @@ the economy QR factorization $A = QR$ is given.
   Argue that if $A \in \bbR^{n \times n}$ is symmetric and positive definite and
   $A_{11} \in \bbR^{k \times k}$ is a leading principal submatrix,
   then $\kappa_2(A_{11}) \leq \kappa(A)$, where $\kappa$ denotes
-  the usual condition number for solving linear systems.
+  the usual 2-norm condition number for solving linear systems. \\[2mm]
+  {\em Hint}: You may use the {\em interlace theorem}, which tells
+  us that if $\mu_1 \leq \mu_2 \leq \ldots \leq \mu_k$ are the
+  eigenvalues of $A_{11}$ and 
+  $\lambda_1 \leq \lambda_2 \leq \ldots \leq \lambda_n$ are the
+  eigenvalues of $A$, then
+  \[
+    \lambda_j \leq \mu_j \leq \lambda_{n-k+j}.
+  \]
 \item[2 pts]
   Show by example that the hypothesis that $A$ is positive definite
   is necessary in the above statement.
@@ -153,10 +161,5 @@ the economy QR factorization $A = QR$ is given.
   then $\kappa(A_1) \leq \kappa(A)$, where $\kappa$ here denotes the
   usual condition number for least squares.
 \end{itemize}
-
-% - Bordered circulant solver
-%   - Transform to equivalent system with diagonal block
-%   - Solve on the arrow matrix
-%   - Implement and check
 
 \end{document}
