@@ -71,7 +71,7 @@ Consider each of the following:
 Consider fitting a polynomial of degree at most $d$
 to $n$ data points, i.e.
 \[
-  \mbox{minimize } \sum_{j=1}^n (p(x_i)-y_i)^2
+  \mbox{minimize } \sum_{i=1}^n (p(x_i)-y_i)^2
 \]
 \begin{itemize}
 \item[2 pts]
@@ -85,7 +85,7 @@ to $n$ data points, i.e.
 \item[2 pts]
   Modify the code to solve the problem
   \[
-    \mbox{minimize } \sum_{j=1}^n (p(x_i)-y_i)^2 +
+    \mbox{minimize } \sum_{i=1}^n (p(x_i)-y_i)^2 +
     \mu \|c\|^2
   \]
   In MATLAB, your routine should have the interface
@@ -96,7 +96,7 @@ to $n$ data points, i.e.
 \item[2 pts]
   Modify the code to solve the problem
   \[
-    \mbox{minimize } \sum_{j=1}^n (p(x_i)-y_i)^2 +
+    \mbox{minimize } \sum_{i=1}^n (p(x_i)-y_i)^2 +
     \mu \int_{-1}^1 p'(x)^2 \, dx
     \]
   In MATLAB, your routine should have the interface
