@@ -134,8 +134,8 @@
   notes: 2020-03-11.pdf
 -
   date: 2020-03-13
-  info: Optimization in 1D
-  notes: 2020-03-13.pdf
+  info: Nonlinear equations in 1D
+  nb: 2020-03-13.ipynb
   hw: 
     - info: P2 (due 3/27)
 #
@@ -145,28 +145,26 @@
 #
 -
   date: 2020-03-16
-  info: Contractions and fixed points
+  info: Optimization in 1D
 -
   date: 2020-03-18
-  info: Classical stationary iterations
+  info: Contractions and fixed points
 -
   date: 2020-03-20
-  info: Krylov subspaces and CG
+  info: Classical stationary iterations
 #
 # ==================
 # Week 10 (nonlinear eq and optimization)
 #
 -
   date: 2020-03-23
-  info: Preconditioning
+  info: Krylov subspaces and CG
 -
   date: 2020-03-25
   info: Nonlinear equations and optimization
-  travel: Simons
 -
   date: 2020-03-27
   info: Newton in many dimensions
-  travel: Simons
   hw: 
     - info: HW 5 (due 4/10)
 #
