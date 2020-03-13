@@ -37,7 +37,7 @@ layout: main
       {% if lec.break %}
       <td>{{ lec.break }}</td>
       {% else %}
-      <td>{% if lec.info %}{% if lec.notes %}<a href="lec/{{ lec.notes }}">{{ lec.info | markdownify }}</a>{% else %}{% if lec.nb %}<a href="https://github.com/dbindel/cs4220-s20/blob/master/lec/jupyter/{{ lec.nb }}">{{ lec.info | markdownify }}</a>{% else %}{{ lec.info | markdownify }}{% endif %}{% endif %}{% if lec.travel %}<p>(Bindel away)</p>{% endif %}{% endif %}</td>
+      <td>{% if lec.info %}{% if lec.notes %}<a href="lec/{{ lec.notes }}">{{ lec.info | markdownify }}</a>{% else %}{% if lec.nb %}<a href="https://github.com/dbindel/cs4220-s20/blob/master/lec/jupyter/{{ lec.nb }}.ipynb">{{ lec.info | markdownify }}</a>{% else %}{{ lec.info | markdownify }}{% endif %}{% endif %}{% if lec.travel %}<p>(Bindel away)</p>{% endif %}{% endif %}</td>
       {% endif %}
       <td>
         {% if lec.hw %}<ul>
