@@ -118,7 +118,7 @@
   info: Hessenberg, tridiagonal, and bidiagonal
   notes: 2020-03-04.pdf
   hw: 
-    - info: Midterm (due 3/13)
+    - info: Midterm (due 4/6)
       file: midterm.pdf
 #
 # ==================
@@ -136,8 +136,6 @@
   date: 2020-03-13
   info: Nonlinear equations in 1D
   nb: 2020-03-13
-  hw: 
-    - info: P2 (due 3/27)
 #
 # ==================
 # Week 9 (linear iterative solvers)
@@ -145,28 +143,26 @@
 #
 -
   date: 2020-03-16
-  info: Optimization in 1D
+  break: Spring break (COVID)
 -
   date: 2020-03-18
-  info: Contractions and fixed points
+  break: Spring break (COVID)
 -
   date: 2020-03-20
-  info: Classical stationary iterations
+  break: Spring break (COVID)
 #
 # ==================
 # Week 10 (nonlinear eq and optimization)
 #
 -
   date: 2020-03-23
-  info: Krylov subspaces and CG
+  break: Spring break (COVID)
 -
   date: 2020-03-25
-  info: Nonlinear equations and optimization
+  break: Spring break (COVID)
 -
   date: 2020-03-27
-  info: Newton in many dimensions
-  hw: 
-    - info: HW 5 (due 4/10)
+  break: Spring break (COVID)
 #
 # ==================
 # Break
@@ -186,63 +182,85 @@
 #
 -
   date: 2020-04-06
-  info: Modified Newton iterations
-  travel: Dean search
+  info: Optimization in 1D
+  nb: 2020-04-06
+  hw:
+    - info: HW 5 (due 4/17)
 -
   date: 2020-04-08
-  info: Quasi-Newton and other iterations
+  info: Contractions and fixed points
+  nb: 2020-04-08
 -
   date: 2020-04-10
-  info: Gradient methods
-  hw: 
-    - info: HW 6 due (4/17)
+  info: Iterative linear solvers
+  nb: 2020-04-10
 #
 # ==================
 # Week 12 (globalization)
 #
 -
   date: 2020-04-13
-  info: Line search and globalization
+  info: Nonlinear equations and optimization
+  nb: 2020-04-13
 -
   date: 2020-04-15
-  info: Trust regions
+  info: Newton in many dimensions
+  nb: 2020-04-15
 -
   date: 2020-04-17
-  info: Homotopy and continuation
-  hw: 
-    - info: P3 (due 5/1)
+  info: Modified Newton iterations
+  nb: 2020-04-17
+  hw:
+    - info: HW 6 (due 4/24)
 #
 # ==================
 # Week 13 (constraints)
 #
 -
   date: 2020-04-20
-  info: Constraints and multipliers
+  info: Quasi-Newton and other iterations
 -
   date: 2020-04-22
-  info: Methods for equality constraints
+  info: Gradient methods for optimization
 -
   date: 2020-04-24
-  info: Methods for inequality constraints
+  info: Line search and globalization
+  hw:
+    - info: HW 7 (due 5/1)
 #
 # ==================
 # Week 14 (other topics)
 #
 -
   date: 2020-04-27
-  info: Iteratively reweighted least squares
+  info: Trust regions
 -
   date: 2020-04-29
-  info: Variable projection and stochastic methods
+  info: Homotopy and continuation
 -
   date: 2020-05-01
-  info: Derivative free methods
+  info: Constraints and multipliers
+  hw:
+    - info: HW 8 (due 5/8)
 #
 # ==================
 # Week 15 (wrap-up)
 #
 -
   date: 2020-05-04
+  info: Methods for equality constraints
+-
+  date: 2020-05-06
+  info: Methods for inequality constraints
+-
+  date: 2020-05-08
+  info: Catch-up and review
+#
+# ==================
+# Week 16 (wrap-up)
+#
+-
+  date: 2020-05-11
   info: Review
   hw:
-    - info: Final (due 5/11)
+    - info: Final (due 5/18)

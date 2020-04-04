@@ -3,11 +3,16 @@ title:      Syllabus
 layout:     main
 ---
 
+*Note*: The syllabus has been updated to account for COVID 19.  This
+version of the syllabus was posted on April 3, and follows what I
+believe to be the most recent university guidance.  I will attempt to
+keep the syllabus up to date as the situation evolves.
+
 ### Lecture and section information
 
 CS 4220/CS 5223/MATH 4260, Spring 2020  
 Lecture time: MWF 2:30-3:20  
-Lecture location: Gates G01
+Lecture location: Gates G01 / Zoom
 
 ### Staff and office hours
 
@@ -95,7 +100,20 @@ Some MATLAB references (if you prefer MATLAB/Octave to Julia):
 
 ## Course work
 
-### Readings and the problem du jour
+### Flipped class work (April 6 onward)
+
+The primary mechanism for the latter half of the course is a
+collection of Jupyter notebooks using the Julia programming
+language.  These notebooks have questions and small programming
+exercises embedded in them.  You should attempt these questions
+on your own and come to the lecture slot (or office hours)
+with questions about places where you are confused.  You may also
+ask about points of confusion on Piazza.  You should submit your
+attempt at filling out the questions within one week (where "I don't
+know" is an acceptable attempt) and submit via CMS.  Each submission
+counts as 1/3 point toward the class participation grade.
+
+### Readings and the problem du jour (before March 13)
 
 Readings from the course text (or notes) will be listed on the course
 page before class.  *You are responsible for reading before lecture*.
@@ -105,7 +123,7 @@ the class material.  These problems are not graded, but you should
 try them (and try to understand them) as a way to better learn the
 material -- and as a way to study for the exams.
 
-### Class work
+### Class work (before March 13)
 
 During each lecture, I will ask 1-2 questions of the class.  You
 should bring along some paper to jot the answers to these questions,
@@ -113,67 +131,54 @@ as well as notes on anything that you found particularly confusing
 during the lecture.  Each submission counts for a third of a point
 on the final grade (for a total of 10% of the grade, equal to one project).
 
-It is also critical for us to have your feedback about how the class
-is going, both to improve the class for the current semester and to
-make the class better for future semesters.  We will solicit
-non-anonymous comments around the midterm, and at the end of the
-semester will check with the college to see who has completed course
-evaluation surveys (though we obviously cannot check to see whether
-your feedback is useful!).  Participating in these feedback activities
-counts toward your grade via points oon the midterm and final.
-
 ### Homework and projects
 
-There will be six one-week homeworks, assigned Friday and due the
+There will be eight one-week homeworks, generally assigned Friday and due the
 following Friday.  These problems will involve a mix of short answers,
 plots, and computations done in MATLAB or Julia. Homework should be
 typed and submitted as PDF files on CMS.  After they are graded,
 homework scores will be posted to CMS.  Regrade requests must be
 submitted within one week of receiving the graded homework.
 
-There will be three two-week programming projects, to be done either
+There will be one two-week programming projects, to be done either
 alone or in a group of two.  Projects will involve solving a larger
 problem, and may be done in MATLAB or Julia.  For projects,
 you will need to submit both codes and a writeup PDF file on CMS.
-
-In order to provide timely, high-quality feedback, we may *not* always
-grade all problems in a homework or pieces to a project.  Instead, we
-will focus our grading efforts on providing feedback on a few key
-points.  We will provide written solutions so that you can evaluate
-yourself for problems where we do not grade in detail.
 
 ### Exams
 
 There will be one midterm and one final exam:
 
- - Midterm: March 6-13
- - Final Exam: May 4-11
+ - Midterm: March 6-April 6 (extended due to COVID closure)
+ - Final Exam: May 11-18
 
 Both exams are take home.  A couple points on the final will go
 toward course evaluation.
 
 ## Grading
 
+This class, along with all other classes this semester, may be taken S/U.
+
 Your final grade in CS 4220 will be computed from grades on the
 assignments and exams using the following weights:
 
  - Class work: 10%
- - Homework: 6% times 5 homeworks (best of 6)
- - Projects: 10% times 3 projects
+ - Homework: 8% times 6 homeworks (bottom two dropped)
+ - Project: 10%
  - Midterm: 15%
  - Final: 15%
+ - Course evaluation: 2%
 
 ## Course policies
 
 ### Late work policy
 
-Unless otherwise stated, all work is due by 11:59 pm on the due date.
-All homework and projects should be submitted via the course
-management system (CMS); you are encouraged to submit early versions,
-since resubmissions up to the deadline are counted without penalty.
-For each assignment, up to three "slip days" are allowed.  Over the
-semester, you may use a total of six slip days.  You may not use slip
-days for the take-home midterm.
+All work is requested by 11:59 pm on the due date.  The reason for the due
+dates is to provide the course staff adequate time to grade.
+Given that COVID will doubtless cause problems, we will accept
+late submissions generously up until May 11 (the date the final goes
+out).  Please try to give us advance warning if you are going to
+submit late.
 
 ### Collaboration
 
@@ -181,13 +186,15 @@ An assignment is an academic document, like a journal article.
 When you turn it in, you are claiming everything in it is your
 original work, *unless you cite a source for it*.
 
-You are welcome to discuss homework and projects among yourselves in
-general terms.  However, you should not look at code or writeups from
-other students, or allow other students to see your code or writeup,
-even if the general solution was worked out together.  Unless we
-explicitly allow it on an assignment, we will not credit code or
-writeups that are shared between students (or teams, in the case of
-projects).
+You are *encouraged* to discuss homework and projects among yourselves
+in general terms.  You should feel absolutely free to collaborate in
+any way you wish for the lecture notebooks (with attribution for any
+good ideas).  However, while you may discuss the homework sets
+generally, you should not look at code or writeups from other
+students, or allow other students to see your code or writeup, even if
+the general solution was worked out together.  Unless we explicitly
+allow it on an assignment, we will not credit code or writeups that
+are shared between students (or teams, in the case of projects).
 
 If you get an idea from a classmate, the TA, a book or other published
 source, or elsewhere, please provide an appropriate citation.  This is
