@@ -184,8 +184,6 @@
   date: 2020-04-06
   info: Optimization in 1D
   nb: 2020-04-06
-  hw:
-    - info: HW 5 (due 4/17)
 -
   date: 2020-04-08
   info: Contractions and fixed points
@@ -194,9 +192,12 @@
   date: 2020-04-10
   info: Iterative linear solvers
   nb: 2020-04-10
+  hw:
+    - info: HW 5 (due 4/17)
+      nb: hw5
 #
 # ==================
-# Week 12 (globalization)
+# Week 12 (nonlinear equations and Newton)
 #
 -
   date: 2020-04-13
@@ -214,7 +215,7 @@
     - info: HW 6 (due 4/24)
 #
 # ==================
-# Week 13 (constraints)
+# Week 13 (globalization)
 #
 -
   date: 2020-04-20
@@ -229,7 +230,7 @@
     - info: HW 7 (due 5/1)
 #
 # ==================
-# Week 14 (other topics)
+# Week 14 (constraints)
 #
 -
   date: 2020-04-27

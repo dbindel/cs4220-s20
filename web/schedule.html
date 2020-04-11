@@ -41,7 +41,7 @@ layout: main
       {% endif %}
       <td>
         {% if lec.hw %}<ul>
-          {% for item in lec.hw %}<li>{% if item.file %}<a href="hw/{{ item.file }}">{{ item.info }}</a>{% else %}{{ item.info }}{% endif %}</li>{% endfor %}
+          {% for item in lec.hw %}<li>{% if item.file %}<a href="hw/{{ item.file }}">{{ item.info }}</a>{% else %}{% if item.nb %}<a href="https://github.com/dbindel/cs4220-s20/blob/master/hw/code/{{ item.nb }}.ipynb">{{ item.info }}</a>{% else %}{{ item.info }}{% endif %}{% endif %}</li>{% endfor %}
         </ul>{% endif %}
       </td>
     </tr>

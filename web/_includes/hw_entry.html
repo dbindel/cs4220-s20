@@ -3,5 +3,7 @@
   {{ entry.text }}
   {% for file in entry.files %}
   [<a href="hw/{{ file }}">{{ file }}</a>]
-  {% endfor %}
+  {% endfor %}{% if entry.nb %}
+  [<a href="https://github.com/dbindel/cs4220-s20/blob/master/hw/code/{{ item.nb }}.ipynb">Jupyter nb</a>]
+  {% endif %}
 </p>
