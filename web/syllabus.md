@@ -25,7 +25,7 @@ OH: W 1:30-2:30, Th 9-10 or by appointment.
 TA: [Darian Nwankwo](http://www.cs.cornell.edu/~don/)  
 TA: [Xinran Zhu](https://www.cam.cornell.edu/research/grad-students/jessie-xinraan-zhu)  
 TA: Leo Huang  
-OH: Fri 9-10, Mon 12-1 (657 Rhodes).
+OH: Mon 12-1, Tue 6-7, Fri 12:30-1:30.
 
 ### Catalog description
 
