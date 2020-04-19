@@ -229,11 +229,12 @@
 -
   date: 2020-04-24
   info: Line search and globalization
+  nb: 2020-04-24
   hw:
     - info: HW 7 (due 5/1)
 #
 # ==================
-# Week 14 (constraints)
+# Week 14 (globalization and constraints)
 #
 -
   date: 2020-04-27
@@ -248,7 +249,7 @@
     - info: HW 8 (due 5/8)
 #
 # ==================
-# Week 15 (wrap-up)
+# Week 15 (constraints)
 #
 -
   date: 2020-05-04
