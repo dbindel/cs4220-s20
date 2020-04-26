@@ -239,12 +239,15 @@
 -
   date: 2020-04-27
   info: Trust regions
+  nb: 2020-04-27
 -
   date: 2020-04-29
   info: Homotopy and continuation
+  nb: 2020-04-29
 -
   date: 2020-05-01
   info: Constraints and multipliers
+  nb: 2020-05-01
   hw:
     - info: HW 8 (due 5/8)
 #
