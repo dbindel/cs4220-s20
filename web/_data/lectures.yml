@@ -230,8 +230,6 @@
   date: 2020-04-24
   info: Line search and globalization
   nb: 2020-04-24
-  hw:
-    - info: HW 7 (due 5/1)
 #
 # ==================
 # Week 14 (globalization and constraints)
@@ -240,6 +238,9 @@
   date: 2020-04-27
   info: Trust regions
   nb: 2020-04-27
+  hw:
+    - info: HW 7 (due 5/11)
+      nb: hw7
 -
   date: 2020-04-29
   info: Homotopy and continuation
@@ -248,8 +249,6 @@
   date: 2020-05-01
   info: Constraints and multipliers
   nb: 2020-05-01
-  hw:
-    - info: HW 8 (due 5/8)
 #
 # ==================
 # Week 15 (constraints)
