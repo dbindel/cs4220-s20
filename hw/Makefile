@@ -5,7 +5,8 @@ HW=	pdf/hw1.pdf \
 	pdf/hw3.pdf \
 	pdf/hw4.pdf \
 	pdf/proj1.pdf \
-	pdf/midterm.pdf 
+	pdf/midterm.pdf \
+	pdf/final.pdf
 
 .PHONY: all copy
 all: $(HW)
